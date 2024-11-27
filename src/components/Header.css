@@ -1,0 +1,66 @@
+.header-navbar {
+  background-color: #ffffff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 12px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+.header-navbar .logo {
+  max-width: 100px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.header-navbar .logo:hover {
+  transform: scale(1.05);
+}
+
+.carrinho-btn {
+  background-color: #007bff;
+  color: white;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.carrinho-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.carrinho-icon {
+  width: 20px;
+  height: auto;
+}
+
+.btn-text {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .header-navbar .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .header-navbar .logo {
+    width: 120px;
+  }
+
+  .carrinho-btn {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
+
+  

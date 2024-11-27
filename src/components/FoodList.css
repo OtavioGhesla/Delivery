@@ -1,0 +1,46 @@
+.row {
+    margin-top: 20px;
+  }
+  
+  .food-card {
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    background-color: #f8f9fa;
+  }
+  
+  .food-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .estilo-card .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card-text {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+  }
+  
+  .card-body p {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  .card-body b {
+    color: #28a745;
+  }
+  

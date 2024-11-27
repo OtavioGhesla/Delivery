@@ -1,0 +1,60 @@
+.restaurant-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .restaurant-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Imagem do Card */
+  .restaurant-card .card-img-top {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    transition: transform 0.3s ease;
+  }
+  
+  .restaurant-card:hover .card-img-top {
+    transform: scale(1.05);
+  }
+  
+  /* Título e Descrição */
+  .restaurant-card .card-body {
+    padding: 20px;
+  }
+  
+  .restaurant-card .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .restaurant-card .card-text {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  /* Lista de Avaliações */
+  .restaurant-card .list-group-item {
+    background-color: #f8f9fa;
+    font-size: 0.9rem;
+    color: #333;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .restaurant-card .card-body {
+      padding: 15px;
+    }
+  
+    .restaurant-card .card-title {
+      font-size: 1.1rem;
+    }
+  }

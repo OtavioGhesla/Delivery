@@ -1,0 +1,44 @@
+.restaurant-details-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 0 15px;
+}
+
+.restaurant-details {
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.restaurant-image {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.restaurant-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.restaurant-name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.restaurant-description {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.restaurant-info p {
+  font-size: 1.1rem;
+  color: #444;
+}
